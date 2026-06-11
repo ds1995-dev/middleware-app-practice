@@ -7,12 +7,18 @@ middlewareを作成して管理者チェックロジックを実装
 ## 使用技術
 - Laravel 10.x + Sail
 - Fortify認証（ログイン / 登録 / ログアウト）
+- カスタムミドルウェア
 - Userモデル（is_adminカラム付き）
 - テストユーザー（シーダー）
   - 管理者: admin@example.com / password
   - 一般: user@example.com / password
 - AdminController
 - 管理者ページ（/admin）
+
+
+## 学んだこと
+- middlewareを使ったアクセス制限の実装
+- 作成したmiddlewareをルートに適用する方法
 
 ## セットアップ
 
